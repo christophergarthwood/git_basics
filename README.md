@@ -1,6 +1,6 @@
 # Git Lab Training
 
-A training platform for 7331 users to practice in and potentially learn from.
+A training platform for users to practice in and potentially learn from.
 
 ## Getting started
 
@@ -31,7 +31,7 @@ In Gitlab, the web based wrapper used to manage your Git repositories, there are
 
 ```
 cd <target location on your machine that will hold the repository>
-git clone git@aronnax.nrlssc.navy.mil:nrl7331/git-lab-training.git
+git clone git@<some url>
 ls
 ```
 
