@@ -1,28 +1,28 @@
 # GIT GENERAL PROCESS
 
-git add/commit/push/stash   #whatever local changes you have in your branch
+`git add/commit/push/stash`   #whatever local changes you have in your branch
 
-git checkout master/main
+`git checkout master/main`
 
-git pull
+`git pull`
 
-git checkout <your branch>
+`git checkout <your branch>`
 
-git merge master/main       #now you're 100% up to date
-
-TEST TEST TEST TEST TEST!!!!!
-
-git push                    #these changes from master inside your branch up
-
-git checkout master
-
-git pull                    #one more time on master to ensure you're up to date.
-
-git merge <your branch>     #now you have a local copy of master on your system
+`git merge master/main`       #now you're 100% up to date
 
 TEST TEST TEST TEST TEST!!!!!
 
-git push                    #now the central repo's master is up to date and has been tested
+`git push`                    #these changes from master inside your branch up
+
+`git checkout master`
+
+`git pull`                    #one more time on master to ensure you're up to date.
+
+`git merge <your branch>`     #now you have a local copy of master on your system
+
+TEST TEST TEST TEST TEST!!!!!
+
+git push`                    #now the central repo's master is up to date and has been tested
 
 # GIT alias
 
@@ -34,15 +34,17 @@ git push                    #now the central repo's master is up to date and has
 
 # GIT CLEAN EVERYTHING (Dangerous)
 
-git clean -fd
+`git clean -fd`
 
 # GIT RESET
 
-git reset --hard
+`git reset --hard`
 
 # GIT NUKE
 
-git clean -fd; git reset --hard
+`git clean -fd`
+
+`git reset --hard`
 
 # GIT SQUASHING
 
@@ -68,35 +70,35 @@ See squash but put `drop` in front of the choice you want removed.
 
 # GIT REPO CRASHING
 
-chown -R me:me *
+`chown -R me:me *`
 
-chmod -R ugo+rx *
+`chmod -R ugo+rx *`
 
-git fsck               #performs a file integrity check
+`git fsck`               #performs a file integrity check
 
-git prune              #an internal housekeeping utility that cleans up unreachable or "orphaned" Git objects
+`git prune`              #an internal housekeeping utility that cleans up unreachable or "orphaned" Git objects
 
-git repack             #combine all objects that do not currently reside in a "pack", into a pack. 
+`git repack`             #combine all objects that do not currently reside in a "pack", into a pack. 
 
                        #It can also be used to re-organize existing packs into a single, more efficient pack.
 
-git fsck
+`git fsck`
 
 # GIT LOG
 
-Reference: https://www.atlassian.com/git/tutorials/git-log
+Log Reference [https://www.atlassian.com/git/tutorials/git-log]
 
-git log --graph --oneline --decorate
+`git log --graph --oneline --decorate`
 
 #limit output
 
-git log --graph --oneline --decorate -10
+`git log --graph --oneline --decorate -10`
 
 # GIT PERMISSIONS
 
 Set execute bit on a file `git add install.sh --chmod=+x`
 
-Reference for Best Practices: https://www.dune-project.org/doc/guides/git_best_practices/
+Reference for Best Practices [https://www.dune-project.org/doc/guides/git_best_practices/]
 
 # GIT SSL ISSUES
 
@@ -143,6 +145,6 @@ Show descending values, last 10 only `svn log -r HEAD:1 -l 10`
 
 # SUBVERSION on DSRC
 
-module load costinit
+`module load costinit`
 
-module load subversion
+`module load subversion`
