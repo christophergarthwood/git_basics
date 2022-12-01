@@ -89,3 +89,8 @@ Note that persistently committing and merging, regardless of using branches, you
 ```
 git pull
 ```
+
+# References
+
++ Git Documentation [https://git-scm.com/doc]
++ Advanced Commands [https://opensource.com/article/22/11/advanced-git-commands]

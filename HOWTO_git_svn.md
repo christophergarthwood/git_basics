@@ -44,6 +44,28 @@ git reset --hard
 
 git clean -fd; git reset --hard
 
+# GIT SQUASHING
+
+If you've ever made a lot of commits locally and wish there was a way to smash them all down into a single commit, you're in luck. Git calls this concept "squashing commits."
+
+`git rebase -i HEAD~2`
+
+You'll be prompted with a message showing each commit. 
+
+`pick 718710d Commit1.`
+
+`pick d66e267 Commit2.`
+
+Put the word squash in front of the commit you want to be absorped into the other.
+
+`pick 718710d Commit1.`
+
+`squash d66e267 Commit2.`
+
+# GIT REMOVE COMMIT
+
+See squash but put `drop` in front of the choice you want removed.
+
 # GIT REPO CRASHING
 
 chown -R me:me *
