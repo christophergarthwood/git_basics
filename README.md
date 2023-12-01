@@ -6,7 +6,7 @@ A training platform for users to practice in and potentially learn from.
 
 Software Configuration Management (SCM) is considered the most important aspect of maintaining control over your work in the field of Computer Science / Software Engineering.  Without SCM you don't know where you are, what has transpired, when is happened, how it happened, and your put both your project and team at great unecessary risk.
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.   Additional information can be found at the [Git] (https://git-csm.com) web site.
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.   Additional information can be found at the [Git](https://git-scm.com/) web site.
 
 The section below enumerates a basic set of commands intended to help one both see the value of a SCM solution as well as provide you some insight into this SCM's solution use.
 
