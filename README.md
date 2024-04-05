@@ -6,7 +6,7 @@ A training platform for users to practice in and potentially learn from.
 
 Software Configuration Management (SCM) is considered the most important aspect of maintaining control over your work in the field of Computer Science / Software Engineering.  Without SCM you don't know where you are, what has transpired, when is happened, how it happened, and your put both your project and team at great unecessary risk.
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.   Additional information can be found at the [Git] (https://git-csm.com) web site.
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.   Additional information can be found at the [Git] (https://git-scm.com) web site.
 
 The section below enumerates a basic set of commands intended to help one both see the value of a SCM solution as well as provide you some insight into this SCM's solution use.
 
@@ -89,6 +89,47 @@ Note that persistently committing and merging, regardless of using branches, you
 ```
 git pull
 ```
+## Clear out History
+
+Deleting the .git folder may cause problems in your git repository. If you want to delete all your commit history but keep the code in its current state, it is very safe to do it as in the following:
+
+Checkout/create orphan branch (this branch won't show in git branch command):
+
+```
+git checkout --orphan latest_branch
+```
+
+Add all the files to the newly created branch:
+
+```
+git add -A
+```
+
+Commit the changes:
+
+```
+git commit -am "commit message"
+```
+
+Delete main (default) branch (this step is permanent):
+
+```
+git branch -D main
+```
+
+Rename the current branch to main:
+
+```
+git branch -m main
+```
+
+Finally, all changes are completed on your local repository, and force update your remote repository:
+
+```
+git push -f origin main
+```
+
+Done.
 
 # References
 
