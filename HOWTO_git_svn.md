@@ -98,8 +98,6 @@ Log Reference [https://www.atlassian.com/git/tutorials/git-log]
 
 Set execute bit on a file `git add install.sh --chmod=+x`
 
-Reference for Best Practices [https://www.dune-project.org/doc/guides/git_best_practices/]
-
 # GIT SSL ISSUES
 
 http.slCAPath or http.sslCAInfo. Adam Spiers's answer gives some great examples. This is the most secure solution to the question.
