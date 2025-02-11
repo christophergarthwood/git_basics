@@ -10,6 +10,8 @@ Git is a free and open source distributed version control system designed to han
 
 The section below enumerates a basic set of commands intended to help one both see the value of a SCM solution as well as provide you some insight into this SCM's solution use.
 
+[Everyday Git](https://git-scm.com/docs/giteveryday)
+
 ## Some Concepts
 
 In Gitlab, the web based wrapper used to manage your Git repositories, there are a few concepts that are important to recognize:
@@ -135,6 +137,7 @@ Done.
 
 + Git Documentation [https://git-scm.com/doc]
 + Git Basics [https://opensource.com/article/22/11/git-concepts]
++ https://git-scm.com/docs/giteveryday
 + Advanced Commands [https://opensource.com/article/22/11/advanced-git-commands]
 =======
 # Git Lab Training
